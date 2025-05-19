@@ -12,4 +12,8 @@ public class Personagem{
         estrategiaDeAtaque.ataque();
     }
 
+    public void setEstrategiaDeAtaque(IAtaque novaEstrategia){
+        this.estrategiaDeAtaque = novaEstrategia;
+    }
+
 }
