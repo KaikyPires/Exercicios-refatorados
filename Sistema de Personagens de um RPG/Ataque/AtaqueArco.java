@@ -1,3 +1,4 @@
+package Ataque;
 public class AtaqueArco implements IAtaque{
 
     @Override

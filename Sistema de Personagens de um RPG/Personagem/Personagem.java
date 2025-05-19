@@ -1,3 +1,6 @@
+import Ataque.IAtaque;
+
+package Personagem;
 public class Personagem{
     private String nome;
     private IAtaque estrategiaDeAtaque;

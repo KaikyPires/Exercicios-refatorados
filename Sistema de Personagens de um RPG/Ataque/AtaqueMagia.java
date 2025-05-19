@@ -1,3 +1,4 @@
+package Ataque;
 public class AtaqueMagia implements IAtaque {
 
     @Override

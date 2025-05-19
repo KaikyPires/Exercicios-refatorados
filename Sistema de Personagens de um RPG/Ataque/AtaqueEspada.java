@@ -1,3 +1,4 @@
+package Ataque;
 public class AtaqueEspada implements IAtaque{
 
     @Override
