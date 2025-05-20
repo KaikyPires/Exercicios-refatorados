@@ -14,4 +14,9 @@ public class Senha {
         return Integer.toHexString(valor.hashCode());
     }
 
+    
+    public boolean autenticacao(Senha outra) {
+        return this.hash.equals(outra.hash);
+    }
+
 }
