@@ -14,4 +14,12 @@ public class Usuario {
         this.email = email;
         this.senha = senha;
     }
+
+    public boolean autenticar(Senha senhaInformada){
+        return senha.autenticacao(senhaInformada);
+    }
+
+    public void mostrarMensagemDeBoasVindas(){
+        nome.exibirMensagem();
+    }
 }
