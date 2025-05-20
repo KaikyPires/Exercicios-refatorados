@@ -1,4 +1,4 @@
-package Cadastro;
+package Cadastro.Dados;
 
 public class Email {
     public final String endereco;
