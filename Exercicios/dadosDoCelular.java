@@ -16,7 +16,7 @@ public class dadosDoCelular {
     }
 
     public static int usoDeDados (int[] dados){
-        int consumoAtual = 0;
+        int consumoAtual = LIMITE_MIN_DE_DADOS_DISPONIVEIS;
 
         for(int consumo : dados){
             consumoAtual += consumo;
