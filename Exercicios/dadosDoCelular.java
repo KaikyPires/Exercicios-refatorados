@@ -29,7 +29,7 @@ public class dadosDoCelular {
         int[] variacaoDeConsumo = {150, 300, 500, 800};
         int dadosFinais = usoDeDados(variacaoDeConsumo);
 
-        System.out.println(dadosFinais);
+        System.out.println("Dados restantes: " +dadosFinais + "MB");
     }
 
 }
